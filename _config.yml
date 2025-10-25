@@ -1,5 +1,5 @@
 title: "G-nyang's Portfolio"
 description: "Data Analysis · Hiking · Freediving · Digital Nomad"
-theme: minima   # GitHub 기본 Jekyll 테마
+theme: jekyll-theme-cayman
 author: G-nyang
 markdown: kramdown
