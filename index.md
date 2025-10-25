@@ -4,16 +4,17 @@ title: "Welcome to G-nyang's Portfolio"
 ---
 
 # 👋 Hi, I'm G-nyang
-I'm currently studying **Data Analysis** at Seoul Cyber University.  
+I'm currently studying **AI** at Seoul Cyber University.  
 I love exploring data, hiking, and freediving.  
 My long-term goal is to become a **digital nomad** who combines technology and freedom.
 
 ---
 
 ## 🧠 What I'm Learning
-- Python & Pandas  
-- Data Visualization with Orange3  
-- Machine Learning basics  
+- Based on Python
+- Data analysis
+- deep learning
+- Process Automation
 
 ---
 
