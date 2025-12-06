@@ -1,0 +1,57 @@
+/* =======================================================
+   목록 버튼 (드롭다운 메뉴) 스타일
+   ======================================================= */
+
+/* 1. 우상단 배치를 위한 컨테이너 (#header) 설정 */
+#header {
+    /* 기존 스타일 유지하면서 Flexbox 추가 */
+    display: flex; 
+    justify-content: space-between; /* 내부 요소(nav와 dropdown)를 양 끝으로 벌림 */
+    align-items: center; /* 수직 정렬 중앙 유지 */
+}
+
+/* 2. 목록 버튼 컨테이너 (.dropdown) 설정 및 우측으로 밀기 */
+.dropdown {
+  position: relative; /* 목록 내용의 기준점 */
+  z-index: 1001; /* 다른 요소 위에 표시되도록 높게 설정 */
+  margin-left: auto; /* **핵심:** Flexbox를 사용하여 오른쪽 끝으로 이동 */
+}
+
+/* 3. 목록 버튼 (.dropbtn) 스타일 */
+.dropbtn {
+  background-color: #3498DB; 
+  color: white;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* 4. 드롭다운 목록 내용 (.dropdown-content) 스타일 */
+.dropdown-content {
+  display: none; /* **초기 숨김** */
+  position: absolute;
+  right: 0; /* **핵심:** 목록의 오른쪽 끝이 버튼의 오른쪽 끝과 정렬되도록 */
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1000;
+  border-radius: 5px;
+}
+
+/* 5. 목록 링크 스타일 */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* 6. 호버 및 표시 클래스 */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+.show {
+  display: block; /* JavaScript로 토글 시 표시 */
+}
