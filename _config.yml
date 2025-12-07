@@ -4,7 +4,5 @@ remote_theme: cotes2020/jekyll-theme-chirpy
 plugins:
   - jekyll-remote-theme
   - jekyll-paginate
-lang: ko-KR
-timezone: Asia/Seoul
 author: G-nyang
 markdown: kramdown
